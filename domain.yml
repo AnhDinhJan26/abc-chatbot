@@ -31,42 +31,46 @@ intents:
 
 responses:
     utter_chaoHoi:
-    - text: Chào bạn, tôi có thể giúp gì được cho bạn không?
-    - text: Chào bạn!
-              
+    - text: "Chào bạn, tôi có thể giúp gì được cho bạn không?"
+    - text: "Chào bạn!"
+
     utter_tamBiet:
-    - text: Tạm biệt bạn 
-    - text: Bye bye
-    - text: Bái bai
-    - text: Bye
+    - text: "Tạm biệt bạn "
+    - text: "Bye bye"
+    - text: "Bái bai"
+    - text: "Bye"
+    - text: "Bye bye"
+    - text: "Tạm biệt, cảm ơn đã ghé thăm."
+    - text: "Cảm ơn đã ghé thăm, hẹn gặp lại"
+    - text: "OK bye bye"
           
     utter_camOn:
-    - text: Không có chi ^^   
+    - text: "Không có chi ^^"
 
     utter_tuVan:
-    - text: Bên mình kinh doanh những mặt hàng như đồ bơi, đồ trẻ em, đồ nam và đồ nữ   
+    - text: "Bên mình kinh doanh những mặt hàng như đồ bơi, đồ trẻ em, đồ nam và đồ nữ"   
 
     #em be
     utter_hoiDoEmBe:
-    - text: chúng tôi có bán áo em bé, quần em bé, giày em bé
+    - text: "chúng tôi có bán áo em bé, quần em bé, giày em bé"
 
     utter_aoEmBe:
     - text: "deuce-shirt"
-      image: "http://127.0.0.1:7000/baby/deuce-shirt.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/deuce-shirt.jpg"
     - text: "duck-shirt"
-      image: "http://127.0.0.1:7000/baby/duck-shirt.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/duck-shirt.jpeg"
     - text: "baby-dark-lounghe-suit"
-      image: "http://127.0.0.1:7000/baby/baby-dark-lounghe-suit.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/baby-dark-lounghe-suit.jpg"
 
     utter_quanEmBe:
     - text: "duck-trouser"
-      image: "http://127.0.0.1:7000/baby/duck-trouser.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/duck-trouser.jpeg"
 
     utter_giayEmBe:
     - text: "aino-shoes"
-      image: "http://127.0.0.1:7000/baby/aino-shoes.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/aino-shoes.jpg"
     - text: "saporoo-gloves"
-      image: "http://127.0.0.1:7000/baby/saporoo-gloves.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/saporoo-gloves.jpg"
 
     #tre em
     utter_hoiDoTreEm:
@@ -74,17 +78,17 @@ responses:
 
     utter_aoTreEm:
     - text: "rdl-suit"
-      image: "http://127.0.0.1:7000/children/rdl-suit.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/rdl-suit.jpg"
 
     utter_quanTreEm:
     - text: "rdl-suit"
-      image: "http://127.0.0.1:7000/children/rdl-suit.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/rdl-suit.jpg"
 
     utter_giayTreEm:
     - text: "kool-sunglasses"
-      image: "http://127.0.0.1:7000/children/kool-sunglasses.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/kool-sunglasses.jpg"
     - text: "runner-shoes"
-      image: "http://127.0.0.1:7000/children/runner-shoes.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/runner-shoes.jpeg"
 
     #do boi
     utter_hoiDoBoi:
@@ -92,25 +96,25 @@ responses:
 
     utter_quanBoi:
     - text: "la-shorts"
-      image: "http://127.0.0.1:7000/swimwear/la-shorts.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/la-shorts.jpg"
     - text: "summer-shorts"
-      image: "http://127.0.0.1:7000/swimwear/summer-shorts.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/summer-shorts.jpeg"
 
     utter_doBoiNam:
     - text: "la-shorts"
-      image: "http://127.0.0.1:7000/swimwear/la-shorts.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/la-shorts.jpg"
     - text: "summer-shorts"
-      image: "http://127.0.0.1:7000/swimwear/summer-shorts.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/summer-shorts.jpeg"
 
     utter_doBoiNu:
     - text: "baywatch-swimsuit"
-      image: "http://127.0.0.1:7000/swimwear/baywatch-swimsuit.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/baywatch-swimsuit.jpg"
     - text: "innish-swimsuit"
-      image: "http://127.0.0.1:7000/swimwear/innish-swimsuit.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/innish-swimsuit.jpg"
     - text: "rivieva-swimsuit"
-      image: "http://127.0.0.1:7000/swimwear/rivieva-swimsuit.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/rivieva-swimsuit.jpeg"
     - text: "tank-swimsuit"
-      image: "http://127.0.0.1:7000/swimwear/tank-swimsuit.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/tank-swimsuit.jpg"
 
     #do nam
     utter_hoiDoNam:
@@ -118,39 +122,39 @@ responses:
 
     utter_quanNam:
     - text: "desperado-jeans"
-      image: "http://127.0.0.1:7000/men/desperado-jeans.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/desperado-jeans.jpg"
     - text: "lenin-jeanshorts"
-      image: "http://127.0.0.1:7000/men/lenin-jeanshorts.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/lenin-jeanshorts.jpg"
     - text: "rossi-bermuda-short"
-      image: "http://127.0.0.1:7000/men/rossi-bermuda-short.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/rossi-bermuda-short.jpg"
     - text: "us-master-jeans"
-      image: "http://127.0.0.1:7000/men/us-master-jeans.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/us-master-jeans.jpg"
 
     utter_aoNam:
     - text: "atlas-lussekofta"
-      image: "http://127.0.0.1:7000/men/atlas-lussekofta.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/atlas-lussekofta.jpeg"
     - text: "bow-tie"
-      image: "http://127.0.0.1:7000/men/bow-tie.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/bow-tie.jpg"
 
     utter_giayNam:
     - text: "avenport-shoes"
-      image: "http://127.0.0.1:7000/men/davenport-shoes.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/davenport-shoes.jpg"
     - text: "fuji-boots"
-      image: "http://127.0.0.1:7000/men/fuji-boots.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/fuji-boots.jpg"
     - text: "lundenhagen-boots"
-      image: "http://127.0.0.1:7000/men/lundenhagen-boots.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/lundenhagen-boots.jpeg"
     - text: "root-boots"
-      image: "http://127.0.0.1:7000/men/root-boots.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/root-boots.jpg"
     - text: "summit-hiking-boots"
-      image: "http://127.0.0.1:7000/men/summit-hiking-boots.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/summit-hiking-boots.jpg"
     - text: "samba-soccer-socks"
-      image: "http://127.0.0.1:7000/men/samba-soccer-socks.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/samba-soccer-socks.jpeg"
     - text: "tiebrak-tenis-shoes"
-      image: "http://127.0.0.1:7000/men/tiebrak-tenis-shoes.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/tiebrak-tenis-shoes.jpg"
 
     utter_vestNam:
     - text: "vest nam"
-      image: "http://127.0.0.1:7000/men/vest.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/vest.jpg"
 
     #do nu
     utter_hoiDoNu:
@@ -158,45 +162,45 @@ responses:
 
     utter_quanNu:
     - text: "stretch-pants"
-      image: "http://127.0.0.1:7000/woman/stretch-pants.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/stretch-pants.jpeg"
 
     utter_aoNu:
     - text: "channel-shirt"
-      image: "http://127.0.0.1:7000/woman/channel-shirt.png"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/channel-shirt.png"
     - text: "lacoste-shirt"
-      image: "http://127.0.0.1:7000/woman/lacoste-shirt.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/lacoste-shirt.jpg"
     - text: "serve-shirt"
-      image: "http://127.0.0.1:7000/woman/serve-shirt.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/serve-shirt.jpg"
     - text: "skin-jacket"
-      image: "http://127.0.0.1:7000/woman/skin-jacket.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/skin-jacket.jpeg"
     - text: "terence-top"
-      image: "http://127.0.0.1:7000/woman/terence-top.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/terence-top.jpg"
     - text: "tuixedo-top"
-      image: "http://127.0.0.1:7000/woman/tuixedo-top.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/tuixedo-top.jpg"
     - text: "wrap-skirt"
-      image: "http://127.0.0.1:7000/woman/wrap-skirt.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/wrap-skirt.jpeg"
 
     utter_giayNu:
     - text: "dsw-sandels"
-      image: "http://127.0.0.1:7000/woman/dsw-sandels.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/dsw-sandels.jpeg"
     - text: "lightweight-sandels"
-      image: "http://127.0.0.1:7000/woman/lightweight-sandels.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/lightweight-sandels.jpeg"
     - text: "slip-on-shoes"
-      image: "http://127.0.0.1:7000/woman/slip-on-shoes.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/slip-on-shoes.jpeg"
     - text: "walking-shoes"
-      image: "http://127.0.0.1:7000/woman/walking-shoes.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/walking-shoes.jpg"
     - text: "wfs-shoes"
-      image: "http://127.0.0.1:7000/woman/wfs-shoes.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/wfs-shoes.jpeg"
     - text: "winter-boots"
-      image: "http://127.0.0.1:7000/woman/winter-boots.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/winter-boots.jpg"
 
     utter_vayNu:
     - text: "kimono"
-      image: "http://127.0.0.1:7000/woman/kimono.jpeg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/kimono.jpeg"
     - text: "halter-dress"
-      image: "http://127.0.0.1:7000/woman/halter-dress.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/halter-dress.jpg"
     - text: "jaskflash-dress"
-      image: "http://127.0.0.1:7000/woman/jaskflash-dress.jpg"
+      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/jaskflash-dress.jpg"
 
 session_config:
      session_expiration_time: 60
