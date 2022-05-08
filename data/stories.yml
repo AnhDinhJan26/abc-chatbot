@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+  - story: chaoHoi
+    steps:
+    - intent: chaoHoi
+    - action: utter_chaoHoi
+
+  - story: tamBiet
+    steps:
+    - intent: tamBiet
+    - action: utter_tamBiet
+    
+  - story: camOn
+    steps:
+    - intent: camOn
+    - action: utter_camOn

@@ -1,0 +1,131 @@
+version: "3.1"
+
+rules:
+- rule: xin chao
+  steps:
+  - intent: chaoHoi
+  - action: utter_chaoHoi
+- rule: tam biet
+  steps:
+  - intent: tamBiet
+  - action: utter_tamBiet
+# - camOn
+- rule: cam on
+  steps:
+  - intent: camOn
+  - action: utter_camOn
+# - tuVan
+- rule: tu van
+  steps:
+  - intent: tuVan
+  - action: utter_tuVan
+# - hoiDoEmBe
+- rule: hoi do em be
+  steps:
+  - intent: hoiDoEmBe
+  - action: utter_hoiDoEmBe
+# - quanEmBe
+- rule: quan em be
+  steps:
+  - intent: quanEmBe
+  - action: utter_quanEmBe
+# - aoEmBe
+- rule: ao em be
+  steps:
+  - intent: aoEmBe
+  - action: utter_aoEmBe
+# - giayEmBe
+- rule: giay em be
+  steps:
+  - intent: giayEmBe
+  - action: utter_giayEmBe
+# - hoiDoTreEm
+- rule: hoi do tre em
+  steps:
+  - intent: hoiDoTreEm
+  - action: utter_hoiDoTreEm
+# - quanTreEm
+- rule: quan tre em
+  steps:
+  - intent: quanTreEm
+  - action: utter_quanTreEm
+# - aoTreEm
+- rule: ao tre em
+  steps:
+  - intent: aoTreEm
+  - action: utter_aoTreEm
+# - giayTreEm
+- rule: giay tre em
+  steps:
+  - intent: giayTreEm
+  - action: utter_giayTreEm
+# - hoiDoBoi
+- rule: hoi do boi
+  steps:
+  - intent: hoiDoBoi
+  - action: utter_hoiDoBoi
+# - quanBoi
+- rule: quan boi
+  steps:
+  - intent: quanBoi
+  - action: utter_quanBoi
+# - doBoiNu
+- rule: do boi nu
+  steps:
+  - intent: doBoiNu
+  - action: utter_doBoiNu
+# - doBoiNam
+- rule: do boi nam
+  steps:
+  - intent: doBoiNam
+  - action: utter_doBoiNam
+# - hoiDoNam
+- rule: hoi do nam
+  steps:
+  - intent: hoiDoNam
+  - action: utter_hoiDoNam
+# - quanNam
+- rule: quan nam
+  steps:
+  - intent: quanNam
+  - action: utter_quanNam
+# - aoNam
+- rule: ao nam
+  steps:
+  - intent: aoNam
+  - action: utter_aoNam
+# - giayNam
+- rule: giay nam
+  steps:
+  - intent: giayNam
+  - action: utter_giayNam
+# - vestNam
+- rule: cvest nam
+  steps:
+  - intent: vestNam
+  - action: utter_vestNam
+# - hoiDoNu
+- rule: hoi do nu
+  steps:
+  - intent: hoiDoNu
+  - action: utter_hoiDoNu
+# - quanNu
+- rule: quan nu
+  steps:
+  - intent: quanNu
+  - action: utter_quanNu
+# - aoNu
+- rule: ao nu
+  steps:
+  - intent: aoNu
+  - action: utter_aoNu
+# - giayNu
+- rule: giay nu
+  steps:
+  - intent: giayNu
+  - action: utter_giayNu
+# - vayNu
+- rule: vay nu
+  steps:
+  - intent: vayNu
+  - action: utter_vayNu

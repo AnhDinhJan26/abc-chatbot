@@ -1,0 +1,136 @@
+responses:
+     utter_chaoHoi:
+     - text: Chào bạn, tôi có thể giúp gì được cho bạn không?
+     - text: Chào bạn!
+               
+     utter_tamBiet:
+     - text: Tạm biệt bạn 
+     - text: Bye bye
+     - text: Bái bai
+     - text: Bye
+          
+     utter_camOn:
+     - text: Không có chi ^^   
+
+     utter_tuVan:
+     - text: Bên mình kinh doanh những mặt hàng như đồ bơi, đồ trẻ em, đồ nam và đồ nữ   
+
+     #em be
+     utter_hoiDoEmBe:
+     - text: chúng tôi có bán áo em bé, quần em bé, giày em bé
+
+     utter_aoEmBe:
+     - text: "ao em be"
+     - image: "data/image/baby/deuce-shirt.jpg"
+     - image: "data/image/baby/duck-shirt.jpeg"
+     - image: "data/image/baby/baby-dark-lounghe-suit.jpg"
+
+     utter_quanEmBe:
+     - text: "quan em be"
+     - image: "data/image/baby/duck-trouser.jpeg"
+
+     utter_giayEmBe:
+     - text: "giay em be"
+     - image: "data/image/baby/aino-shoes.jpg"
+     - image: "data/image/baby/saporoo-gloves.jpg"
+
+     #tre em
+     utter_hoiDoTreEm:
+     - text: chúng tôi có bán áo trẻ em, quần trẻ em, giày trẻ em
+
+     utter_aoTreEm:
+     - text: "ao tre em"
+     - image: "data/image/children/rdl-suit.jpg"
+
+     utter_quanTreEm:
+     - text: "quan tre em"
+     - image: "data/image/children/rdl-suit.jpg"
+
+     utter_giayTreEm:
+     - text: "giay tre em"
+     - image: "data/image/children/kool-sunglasses.jpg"
+     - image: "data/image/children/runner-shoes.jpeg"
+
+     #do boi
+     utter_hoiDoBoi:
+     - text: chúng tôi có bán áo quần bơi, đồ bơi nam và đồ bơi nữ
+
+     utter_quanBoi:
+     - text: "quan boi"
+     - image: "data/image/swimwear/la-shorts.jpg"
+     - image: "data/image/swimwear/summer-shorts.jpeg"
+
+     utter_doBoiNam:
+     - text: "do boi nam"
+     - image: "data/image/swimwear/la-shorts.jpg"
+     - image: "data/image/swimwear/summer-shorts.jpeg"
+
+     utter_doBoiNu:
+     - text: "do boi nu"
+     - image: "data/image/swimwear/baywatch-swimsuit.jpg"
+     - image: "data/image/swimwear/innish-swimsuit.jpg"
+     - image: "data/image/swimwear/rivieva-swimsuit.jpeg"
+     - image: "data/image/swimwear/tank-swimsuit.jpg"
+
+     #do nam
+     utter_hoiDoNam:
+     - text: chúng tôi có bán quần nam, áo nam, giày nam, vest nam
+
+     utter_quanNam:
+     - text: "quan nam"
+     - image: "data/image/men/desperado-jeans.jpg"
+     - image: "data/image/men/lenin-jeanshorts.jpg"
+     - image: "data/image/men/rossi-bermuda-short.jpg"
+     - image: "data/image/men/us-master-jeans.jpg"
+
+     utter_aoNam:
+     - text: "ao nam"
+     - image: "data/image/men/atlas-lussekofta.jpeg"
+     - image: "data/image/men/bow-tie.jpg"
+
+     utter_giayNam:
+     - text: "giay nam"
+     - image: "data/image/men/davenport-shoes.jpg"
+     - image: "data/image/men/fuji-boots.jpg"
+     - image: "data/image/men/lundenhagen-boots.jpeg"
+     - image: "data/image/men/root-boots.jpg"
+     - image: "data/image/men/summit-hiking-boots.jpg"
+     - image: "data/image/men/samba-soccer-socks.jpeg"
+     - image: "data/image/men/tiebrak-tenis-shoes_.jpg"
+
+     utter_vestNam:
+     - text: "vest nam"
+     - image: "data/image/men/vest.jpg"
+
+     #do nu
+     utter_hoiDoNu:
+     - text: chúng tôi có bán quần nữ, áo nữ, giày nữ, vest nữ
+
+     utter_quanNu:
+     - text: "quan nu"
+     - image: "data/image/woman/stretch-pants.jpeg"
+
+     utter_aoNu:
+     - text: "ao nu"
+     - image: "data/image/woman/channel-shirt.png"
+     - image: "data/image/woman/lacoste-shirt.jpg"
+     - image: "data/image/woman/serve-shirt.jpg"
+     - image: "data/image/woman/skin-jacket.jpeg"
+     - image: "data/image/woman/terence-top.jpg"
+     - image: "data/image/woman/tuixedo-top.jpg"
+     - image: "data/image/woman/wrap-skirt.jpeg"
+
+     utter_giayNu:
+     - text: "giay nu"
+     - image: "data/image/woman/dsw-sandels.jpeg"
+     - image: "data/image/woman/lightweight-sandels.jpeg"
+     - image: "data/image/woman/slip-on-shoes.jpeg"
+     - image: "data/image/woman/walking-shoes.jpg"
+     - image: "data/image/woman/wfs-shoes.jpeg"
+     - image: "data/image/woman/winter-boots.jpg"
+
+     utter_vayNu:
+     - text: "vay nu"
+     - image: "data/image/woman/kimono.jpeg"
+     - image: "data/image/woman/halter-dress.jpg"
+     - image: "data/image/woman/jaskflash-dress.jpg"

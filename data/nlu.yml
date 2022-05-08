@@ -1,0 +1,138 @@
+nlu:
+- intent: chaoHoi
+  examples: |
+    - hi
+    - chào
+    - xin chào
+    - hello
+    - chào bạn
+    - chào shop
+    - dạ chào shop
+    - shop ơi cho em hỏi
+    - shop ơi cho mình hỏi
+    - shop ơi
+    - alo shop
+    - alo
+    - mình có vài câu hỏi
+    - có ai giúp mình không
+    - hey
+    - có ai ở đây không?
+
+- intent: tamBiet
+  examples: |
+    - bye
+    - tạm biệt
+    - chào tạm biệt
+    - tạm biệt shop
+
+- intent: camOn
+  examples: |
+    - cảm ơn shop
+    - em cảm ơn ạ
+    - cám ơn
+    - thank
+    - tuyệt
+
+- intent: tuVan
+  examples: |
+    - tư vấn cho mình với
+    - shop bán gì vậy ạ
+    - shop bán gì
+    - bán gì
+    - shop mình có những món đồ gì
+    - shop mình có những gì
+    - bên mình bán những gì
+    - bên mình bán gì
+
+#em be
+- intent: hoiDoEmBe
+  examples: |
+    - đồ em bé
+
+- intent: quanEmBe
+  examples: |
+    - quần em bé
+
+- intent: aoEmBe
+  examples: |
+    - áo em bé
+
+- intent: giayEmBe
+  examples: |
+    - giày em bé
+
+#em be
+- intent: hoiDoTreEm
+  examples: |
+    - đồ trẻ em
+
+- intent: quanTreEm
+  examples: |
+    - quần trẻ em
+
+- intent: aoTreEm
+  examples: |
+    - áo trẻ em
+
+- intent: giayTreEm
+  examples: |
+    - giày trẻ em
+
+#do boi
+- intent: hoiDoBoi
+  examples: |
+    - đồ bơi
+
+- intent: quanBoi
+  examples: |
+    - quần bơi
+
+- intent: doBoiNu
+  examples: |
+    - đồ bơi nữ
+
+- intent: doBoiNam
+  examples: |
+    - đồ bơi nam
+
+#do nam
+- intent: hoiDoNam
+  examples: |
+    - đồ nam
+
+- intent: quanNam
+  examples: |
+    - quần nam
+
+- intent: aoNam
+  examples: |
+    - áo nam
+
+- intent: giayNam
+  examples: |
+    - giày nam
+
+- intent: vestNam
+  examples: |
+    - vest nam
+
+#do nu
+- intent: hoiDoNu
+  examples: |
+    - đồ nữ
+
+- intent: quanNu
+  examples: |
+    - quần nữ
+
+- intent: aoNu
+  examples: |
+    - áo nữ
+
+- intent: giayNu
+  examples: |
+    - giày nữ
+
+- intent: vayNu
+  examples: |
+    - vay nữ
