@@ -48,91 +48,179 @@ nlu:
 - intent: hoiDoEmBe
   examples: |
     - đồ em bé
+    - bên mình có bán đồ em bé không
+    - shop mình có đồ em bé không
+    - có đồ em bé không
+    - mình muốn mua đồ em bé
 
 - intent: quanEmBe
   examples: |
     - quần em bé
+    - bên mình có bán quần em bé không
+    - shop mình có quần em bé không
+    - có quần em bé không
+    - mình muốn mua quần em bé
 
 - intent: aoEmBe
   examples: |
     - áo em bé
+    - bên mình có bán áo em bé không
+    - shop mình có áo em bé không
+    - có áo em bé không
+    - mình muốn mua áo em bé
 
 - intent: giayEmBe
   examples: |
     - giày em bé
+    - bên mình có bán giày em bé không
+    - shop mình có giày em bé không
+    - có giày em bé không
+    - mình muốn mua giày em bé
 
-#em be
+#tre em
 - intent: hoiDoTreEm
   examples: |
     - đồ trẻ em
+    - bên mình có bán đồ trẻ em không
+    - shop mình có đồ trẻ em không
+    - có đồ trẻ em không
+    - mình muốn mua đồ trẻ em
 
 - intent: quanTreEm
   examples: |
     - quần trẻ em
+    - bên mình có bán quần trẻ em không
+    - shop mình có quần trẻ em không
+    - có quần trẻ em không
+    - mình muốn mua quần trẻ em
 
 - intent: aoTreEm
   examples: |
     - áo trẻ em
+    - bên mình có bán áo trẻ em không
+    - shop mình có áo trẻ em không
+    - có áo trẻ em không
+    - mình muốn mua áo trẻ em
 
 - intent: giayTreEm
   examples: |
     - giày trẻ em
+    - bên mình có bán giày trẻ em không
+    - shop mình có giày trẻ em không
+    - có giày trẻ em không
+    - mình muốn mua giày trẻ em
 
 #do boi
 - intent: hoiDoBoi
   examples: |
     - đồ bơi
+    - bên mình có bán đồ bơi không
+    - shop mình có đồ bơi không
+    - có đồ bơi không
+    - mình muốn mua đồ bơi
 
 - intent: quanBoi
   examples: |
     - quần bơi
+    - bên mình có bán quần bơi không
+    - shop mình có quần bơi không
+    - có quần bơi không
+    - mình muốn mua quần bơi
 
 - intent: doBoiNu
   examples: |
     - đồ bơi nữ
+    - bên mình có bán đồ bơi nữ không
+    - shop mình có đồ bơi nữ không
+    - có đồ bơi nữ không
+    - mình muốn mua đồ bơi nữ
 
 - intent: doBoiNam
   examples: |
     - đồ bơi nam
+    - bên mình có bán đồ bơi nam không
+    - shop mình có đồ bơi nam không
+    - có đồ bơi nam không
+    - mình muốn mua đồ bơi nam
 
 #do nam
 - intent: hoiDoNam
   examples: |
     - đồ nam
+    - bên mình có bán đồ nam không
+    - shop mình có đồ nam không
+    - có đồ nam không
+    - mình muốn mua đồ nam
 
 - intent: quanNam
   examples: |
     - quần nam
+    - bên mình có bán quần nam không
+    - shop mình có quần nam không
+    - có quần nam không
+    - mình muốn mua quần nam
 
 - intent: aoNam
   examples: |
     - áo nam
+    - bên mình có bán áo nam không
+    - shop mình có áo nam không
+    - có áo nam không
+    - mình muốn mua áo nam
 
 - intent: giayNam
   examples: |
     - giày nam
+    - bên mình có bán giày nam không
+    - shop mình có giày nam không
+    - có giày nam không
+    - mình muốn mua giày nam
 
 - intent: vestNam
   examples: |
     - vest nam
+    - bên mình có bán vest nam không
+    - shop mình có vest nam không
+    - có vest nam không
+    - mình muốn mua vest nam
 
 #do nu
 - intent: hoiDoNu
   examples: |
     - đồ nữ
+    - bên mình có bán đồ nữ không
+    - shop mình có đồ nữ không
+    - có đồ nữ không
+    - mình muốn mua đồ nữ
 
 - intent: quanNu
   examples: |
     - quần nữ
+    - bên mình có bán quần nữ không
+    - shop mình có quần nữ không
+    - có quần nữ không
+    - mình muốn mua quần nữ
 
 - intent: aoNu
   examples: |
     - áo nữ
+    - bên mình có bán áo nữ không
+    - shop mình có áo nữ không
+    - có áo nữ không
+    - mình muốn mua áo nữ
 
 - intent: giayNu
   examples: |
     - giày nữ
+    - bên mình có bán giày nữ không
+    - shop mình có giày nữ không
+    - có giày nữ không
+    - mình muốn mua giày nữ
 
 - intent: vayNu
   examples: |
-    - vay nữ
+    - váy nữ
+    - bên mình có bán váy nữ không
+    - shop mình có váy nữ không
+    - có váy nữ không
+    - mình muốn mua váy nữ

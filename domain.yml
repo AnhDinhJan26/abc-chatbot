@@ -31,7 +31,7 @@ intents:
 
 responses:
     utter_chaoHoi:
-    - text: "Chào bạn, tôi có thể giúp gì được cho bạn không?"
+    - text: "Chào bạn, mình có thể giúp gì được cho bạn không?"
     - text: "Chào bạn!"
 
     utter_tamBiet:
@@ -46,13 +46,17 @@ responses:
           
     utter_camOn:
     - text: "Không có chi ^^"
+    - text: "rất vui lòng khi được phục vụ bạn"
 
     utter_tuVan:
-    - text: "Bên mình kinh doanh những mặt hàng như đồ bơi, đồ trẻ em, đồ nam và đồ nữ"   
+    - text: "Bên mình kinh doanh những mặt hàng như đồ bơi, đồ trẻ em, đồ nam và đồ nữ" 
+    - text: "Shop mình bán đồ bơi, đồ trẻ em, đồ nam và đồ nữ"  
 
     #em be
     utter_hoiDoEmBe:
-    - text: "chúng tôi có bán áo em bé, quần em bé, giày em bé"
+    - text: "chúng mình có bán áo em bé, quần em bé, giày em bé"
+    - text: "bên mình có bán áo em bé, quần em bé, giày em bé"
+    - text: "shop mình có bán áo em bé, quần em bé, giày em bé"
 
     utter_aoEmBe:
     - text: "deuce-shirt"
@@ -74,7 +78,9 @@ responses:
 
     #tre em
     utter_hoiDoTreEm:
-    - text: chúng tôi có bán áo trẻ em, quần trẻ em, giày trẻ em
+    - text: "chúng mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
+    - text: "bên mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
+    - text: "shop mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
 
     utter_aoTreEm:
     - text: "rdl-suit"
@@ -92,7 +98,9 @@ responses:
 
     #do boi
     utter_hoiDoBoi:
-    - text: chúng tôi có bán áo quần bơi, đồ bơi nam và đồ bơi nữ
+    - text: "chúng mình có bán áo quần bơi, đồ bơi nam và đồ bơi nữ"
+    - text: "shop mình có bán áo quần bơi, đồ bơi nam và đồ bơi nữ"
+    - text: "bên mình có bán áo quần bơi, đồ bơi nam và đồ bơi nữ"
 
     utter_quanBoi:
     - text: "la-shorts"
@@ -118,7 +126,9 @@ responses:
 
     #do nam
     utter_hoiDoNam:
-    - text: chúng tôi có bán quần nam, áo nam, giày nam, vest nam
+    - text: "chúng mình có bán quần nam, áo nam, giày nam, vest nam"
+    - text: "bên mình có bán quần nam, áo nam, giày nam, vest nam"
+    - text: "shop mình có bán quần nam, áo nam, giày nam, vest nam"
 
     utter_quanNam:
     - text: "desperado-jeans"
@@ -158,7 +168,9 @@ responses:
 
     #do nu
     utter_hoiDoNu:
-    - text: chúng tôi có bán quần nữ, áo nữ, giày nữ, vest nữ
+    - text: "chúng mình có bán quần nữ, áo nữ, giày nữ, vest nữ"
+    - text: "bên mình có bán quần nữ, áo nữ, giày nữ, vest nữ"
+    - text: "shop mình có bán quần nữ, áo nữ, giày nữ, vest nữ"
 
     utter_quanNu:
     - text: "stretch-pants"

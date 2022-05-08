@@ -15,3 +15,118 @@ stories:
     steps:
     - intent: camOn
     - action: utter_camOn
+
+  - story: tuVan
+    steps:
+    - intent: tuVan
+    - action: utter_tuVan
+#story do em be
+  - story: hoiDoEmBe
+    steps:
+    - intent: hoiDoEmBe
+    - action: utter_hoiDoEmBe
+
+  - story: quanEmBe
+    steps:
+    - intent: quanEmBe
+    - action: utter_quanEmBe
+  
+  - story: aoEmBe
+    steps:
+    - intent: aoEmBe
+    - action: utter_aoEmBe
+
+  - story: giayEmBe
+    steps:
+    - intent: giayEmBe
+    - action: utter_giayEmBe
+#story do tre em
+  - story: hoiDoTreEm
+    steps:
+    - intent: hoiDoTreEm
+    - action: utter_hoiDoTreEm
+  
+  - story: quanTreEm
+    steps:
+    - intent: quanTreEm
+    - action: utter_quanTreEm
+
+  - story: aoTreEm
+    steps:
+    - intent: aoTreEm
+    - action: utter_aoTreEm
+
+  - story: giayTreEm
+    steps:
+    - intent: giayTreEm
+    - action: utter_giayTreEm
+#story do boi
+  - story: hoiDoBoi
+    steps:
+    - intent: hoiDoBoi
+    - action: utter_hoiDoBoi
+
+  - story: quanBoi
+    steps:
+    - intent: quanBoi
+    - action: utter_quanBoi
+
+  - story: doBoiNu
+    steps:
+    - intent: doBoiNu
+    - action: utter_doBoiNu
+
+  - story: doBoiNam
+    steps:
+    - intent: doBoiNam
+    - action: utter_doBoiNam
+#story do nam
+  - story: hoiDoNam
+    steps:
+    - intent: hoiDoNam
+    - action: utter_hoiDoNam
+
+  - story: quanNam
+    steps:
+    - intent: quanNam
+    - action: utter_quanNam
+
+  - story: aoNam
+    steps:
+    - intent: aoNam
+    - action: utter_aoNam
+
+  - story: giayNam
+    steps:
+    - intent: giayNam
+    - action: utter_giayNam
+
+  - story: vestNam
+    steps:
+    - intent: vestNam
+    - action: utter_vestNam
+#story do nu
+  - story: hoiDoNu
+    steps:
+    - intent: hoiDoNu
+    - action: utter_hoiDoNu
+
+  - story: quanNu
+    steps:
+    - intent: quanNu
+    - action: utter_quanNu
+
+  - story: aoNu
+    steps:
+    - intent: aoNu
+    - action: utter_aoNu
+
+  - story: giayNu
+    steps:
+    - intent: giayNu
+    - action: utter_giayNu
+
+  - story: vayNu
+    steps:
+    - intent: vayNu
+    - action: utter_vayNu
