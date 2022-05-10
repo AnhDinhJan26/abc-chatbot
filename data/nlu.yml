@@ -36,6 +36,8 @@ nlu:
 - intent: tuVan
   examples: |
     - tư vấn cho mình với
+    - tư vấn cho anh với
+    - tư vấn cho chị với
     - shop bán gì vậy ạ
     - shop bán gì
     - bán gì

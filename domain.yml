@@ -56,19 +56,28 @@ responses:
     utter_hoiDoEmBe:
     - text: "chúng mình có bán:"
       buttons:
-      - title: quần em bé
-      - title: áo em bé
-      - title: giày em bé
+      - payload: /quanEmBe
+        title: quần em bé
+      - payload: /aoEmBe
+        title: áo em bé
+      - payload: /giayEmbe
+        title: giày em bé
     - text: "bên mình có bán:"
       buttons:
-      - title: quần em bé
-      - title: áo em bé
-      - title: giày em bé
+      - payload: /quanEmBe
+        title: quần em bé
+      - payload: /aoEmBe
+        title: áo em bé
+      - payload: /giayEmbe
+        title: giày em bé
     - text: "shop mình có bán:"
       buttons:
-      - title: quần em bé
-      - title: áo em bé
-      - title: giày em bé
+      - payload: /quanEmBe
+        title: quần em bé
+      - payload: /aoEmBe
+        title: áo em bé
+      - payload: /giayEmbe
+        title: giày em bé
 
     utter_aoEmBe:
     - text: "deuce-shirt"
@@ -90,24 +99,30 @@ responses:
 
     #tre em
     utter_hoiDoTreEm:
-    - text: "chúng mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
-    - text: "bên mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
-    - text: "shop mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
     - text: "chúng mình có bán:"
       buttons:
-      - title: quần trẻ em
-      - title: áo trẻ em
-      - title: giày trẻ em
+      - payload: /quanTreEm
+        title: quần trẻ em
+      - payload: /aoTreEm
+        title: áo trẻ em
+      - payload: /giayTreEm
+        title: giày trẻ em
     - text: "bên mình có bán:"
       buttons:
-      - title: quần trẻ em
-      - title: áo trẻ em
-      - title: giày trẻ em
+      - payload: /quanTreEm
+        title: quần trẻ em
+      - payload: /aoTreEm
+        title: áo trẻ em
+      - payload: /giayTreEm
+        title: giày trẻ em
     - text: "shop mình có bán:"
       buttons:
-      - title: quần trẻ em
-      - title: áo trẻ em
-      - title: giày trẻ em
+      - payload: /quanTreEm
+        title: quần trẻ em
+      - payload: /aoTreEm
+        title: áo trẻ em
+      - payload: /giayTreEm
+        title: giày trẻ em
 
     utter_aoTreEm:
     - text: "rdl-suit"
@@ -127,19 +142,28 @@ responses:
     utter_hoiDoBoi:
     - text: "chúng mình có bán:"
       buttons:
-      - title: quần bơi
-      - title: đồ bơi nam
-      - title: đồ bơi nữ
+      - payload: /quanBoi
+        title: quần bơi
+      - payload: /doBoiNam
+        title: đồ bơi nam
+      - payload: /doBoiNu
+        title: đồ bơi nữ
     - text: "bên mình có bán:"
       buttons:
-      - title: quần bơi
-      - title: đồ bơi nam
-      - title: đồ bơi nữ
+      - payload: /quanBoi
+        title: quần bơi
+      - payload: /doBoiNam
+        title: đồ bơi nam
+      - payload: /doBoiNu
+        title: đồ bơi nữ
     - text: "shop mình có bán:"
       buttons:
-      - title: quần bơi
-      - title: đồ bơi nam
-      - title: đồ bơi nữ
+      - payload: /quanBoi
+        title: quần bơi
+      - payload: /doBoiNam
+        title: đồ bơi nam
+      - payload: /doBoiNu
+        title: đồ bơi nữ
 
     utter_quanBoi:
     - text: "la-shorts"
@@ -167,22 +191,34 @@ responses:
     utter_hoiDoNam:
     - text: "chúng mình có bán:"
       buttons:
-      - title: quần nam
-      - title: áo nam
-      - title: giày nam
-      - title: vest nam
+      - payload: /quanNam
+        title: quần nam
+      - payload: /aoNam
+        title: áo nam
+      - payload: /giayNam
+        title: giày nam
+      - payload: /vestNam
+        title: vest nam
     - text: "bên mình có bán:"
       buttons:
-      - title: quần nam
-      - title: áo nam
-      - title: giày nam
-      - title: vest nam
+      - payload: /quanNam
+        title: quần nam
+      - payload: /aoNam
+        title: áo nam
+      - payload: /giayNam
+        title: giày nam
+      - payload: /vestNam
+        title: vest nam
     - text: "shop mình có bán:"
       buttons:
-      - title: quần nam
-      - title: áo nam
-      - title: giày nam
-      - title: vest nam
+      - payload: /quanNam
+        title: quần nam
+      - payload: /aoNam
+        title: áo nam
+      - payload: /giayNam
+        title: giày nam
+      - payload: /vestNam
+        title: vest nam
 
     utter_quanNam:
     - text: "desperado-jeans"
@@ -224,22 +260,34 @@ responses:
     utter_hoiDoNu:
     - text: "chúng mình có bán:"
       buttons:
-      - title: quần nữ
-      - title: áo nữ
-      - title: giày nữ
-      - title: váy nữ
+      - payload: /quanNu
+        title: quần nữ
+      - payload: /aoNu
+        title: áo nữ
+      - payload: /giayNu
+        title: giày nữ
+      - payload: /vayNu
+        title: váy nữ
     - text: "bên mình có bán:"
       buttons:
-      - title: quần nữ
-      - title: áo nữ
-      - title: giày nữ
-      - title: váy nữ
+      - payload: /quanNu
+        title: quần nữ
+      - payload: /aoNu
+        title: áo nữ
+      - payload: /giayNu
+        title: giày nữ
+      - payload: /vayNu
+        title: váy nữ
     - text: "shop mình có bán:"
       buttons:
-      - title: quần nữ
-      - title: áo nữ
-      - title: giày nữ
-      - title: váy nữ
+      - payload: /quanNu
+        title: quần nữ
+      - payload: /aoNu
+        title: áo nữ
+      - payload: /giayNu
+        title: giày nữ
+      - payload: /vayNu
+        title: váy nữ
 
     utter_quanNu:
     - text: "stretch-pants"
