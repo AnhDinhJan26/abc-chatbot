@@ -52,6 +52,10 @@ nlu:
     - shop mình có đồ em bé không
     - có đồ em bé không
     - mình muốn mua đồ em bé
+    - tôi muốn mua đồ em bé
+    - em muốn mua đồ em bé
+    - chị muốn mua đồ em bé
+    - anh muốn mua đồ em bé
 
 - intent: quanEmBe
   examples: |
@@ -60,6 +64,10 @@ nlu:
     - shop mình có quần em bé không
     - có quần em bé không
     - mình muốn mua quần em bé
+    - tôi muốn mua quần em bé
+    - em muốn mua quần em bé
+    - chị muốn mua quần em bé
+    - anh muốn mua quần em bé
 
 - intent: aoEmBe
   examples: |
@@ -68,6 +76,10 @@ nlu:
     - shop mình có áo em bé không
     - có áo em bé không
     - mình muốn mua áo em bé
+    - tôi muốn mua áo em bé
+    - em muốn mua áo em bé
+    - chị muốn mua áo em bé
+    - anh muốn mua áo em bé
 
 - intent: giayEmBe
   examples: |
@@ -76,6 +88,10 @@ nlu:
     - shop mình có giày em bé không
     - có giày em bé không
     - mình muốn mua giày em bé
+    - tôi muốn mua giày em bé
+    - em muốn mua giày em bé
+    - chị muốn mua giày em bé
+    - anh muốn mua giày em bé
 
 #tre em
 - intent: hoiDoTreEm
@@ -85,6 +101,10 @@ nlu:
     - shop mình có đồ trẻ em không
     - có đồ trẻ em không
     - mình muốn mua đồ trẻ em
+    - tôi muốn mua đồ trẻ em
+    - em muốn mua đồ trẻ em
+    - chị muốn mua đồ trẻ em
+    - anh muốn mua đồ trẻ em
 
 - intent: quanTreEm
   examples: |
@@ -93,6 +113,10 @@ nlu:
     - shop mình có quần trẻ em không
     - có quần trẻ em không
     - mình muốn mua quần trẻ em
+    - tôi muốn mua quần trẻ em
+    - em muốn mua quần trẻ em
+    - chị muốn mua quần trẻ em
+    - anh muốn mua quần trẻ em
 
 - intent: aoTreEm
   examples: |
@@ -101,6 +125,10 @@ nlu:
     - shop mình có áo trẻ em không
     - có áo trẻ em không
     - mình muốn mua áo trẻ em
+    - tôi muốn mua áo trẻ em
+    - em muốn mua áo trẻ em
+    - chị muốn mua áo trẻ em
+    - anh muốn mua áo trẻ em
 
 - intent: giayTreEm
   examples: |
@@ -109,6 +137,10 @@ nlu:
     - shop mình có giày trẻ em không
     - có giày trẻ em không
     - mình muốn mua giày trẻ em
+    - tôi muốn mua giày trẻ em
+    - em muốn mua giày trẻ em
+    - chị muốn mua giày trẻ em
+    - anh muốn mua giày trẻ em
 
 #do boi
 - intent: hoiDoBoi
@@ -118,6 +150,10 @@ nlu:
     - shop mình có đồ bơi không
     - có đồ bơi không
     - mình muốn mua đồ bơi
+    - tôi muốn mua đồ bơi
+    - em muốn mua đồ bơi
+    - chị muốn mua đồ bơi
+    - anh muốn mua đồ bơi
 
 - intent: quanBoi
   examples: |
@@ -126,6 +162,10 @@ nlu:
     - shop mình có quần bơi không
     - có quần bơi không
     - mình muốn mua quần bơi
+    - tôi muốn mua quần bơi
+    - em muốn mua quần bơi
+    - chị muốn mua quần bơi
+    - anh muốn mua quần bơi
 
 - intent: doBoiNu
   examples: |
@@ -134,6 +174,10 @@ nlu:
     - shop mình có đồ bơi nữ không
     - có đồ bơi nữ không
     - mình muốn mua đồ bơi nữ
+    - tôi muốn mua đồ bơi nữ
+    - em muốn mua đồ bơi nữ
+    - chị muốn mua đồ bơi nữ
+    - anh muốn mua đồ bơi nữ
 
 - intent: doBoiNam
   examples: |
@@ -142,6 +186,10 @@ nlu:
     - shop mình có đồ bơi nam không
     - có đồ bơi nam không
     - mình muốn mua đồ bơi nam
+    - tôi muốn mua đồ bơi nam
+    - em muốn mua đồ bơi nam
+    - chị muốn mua đồ bơi nam
+    - anh muốn mua đồ bơi nam
 
 #do nam
 - intent: hoiDoNam
@@ -151,6 +199,10 @@ nlu:
     - shop mình có đồ nam không
     - có đồ nam không
     - mình muốn mua đồ nam
+    - tôi muốn mua đồ nam
+    - em muốn mua đồ nam
+    - chị muốn mua đồ nam
+    - anh muốn mua đồ nam
 
 - intent: quanNam
   examples: |
@@ -159,6 +211,10 @@ nlu:
     - shop mình có quần nam không
     - có quần nam không
     - mình muốn mua quần nam
+    - tôi muốn mua quần nam
+    - em muốn mua quần nam
+    - chị muốn mua quần nam
+    - anh muốn mua quần nam
 
 - intent: aoNam
   examples: |
@@ -167,6 +223,10 @@ nlu:
     - shop mình có áo nam không
     - có áo nam không
     - mình muốn mua áo nam
+    - tôi muốn mua áo nam
+    - em muốn mua áo nam
+    - chị muốn mua áo nam
+    - anh muốn mua áo nam
 
 - intent: giayNam
   examples: |
@@ -175,6 +235,10 @@ nlu:
     - shop mình có giày nam không
     - có giày nam không
     - mình muốn mua giày nam
+    - tôi muốn mua giày nam
+    - em muốn mua giày nam
+    - chị muốn mua giày nam
+    - anh muốn mua giày nam
 
 - intent: vestNam
   examples: |
@@ -183,6 +247,10 @@ nlu:
     - shop mình có vest nam không
     - có vest nam không
     - mình muốn mua vest nam
+    - tôi muốn mua vest nam
+    - em muốn mua vest nam
+    - chị muốn mua vest nam
+    - anh muốn mua vest nam
 
 #do nu
 - intent: hoiDoNu
@@ -192,6 +260,10 @@ nlu:
     - shop mình có đồ nữ không
     - có đồ nữ không
     - mình muốn mua đồ nữ
+    - tôi muốn mua đồ nữ
+    - em muốn mua đồ nữ
+    - chị muốn mua đồ nữ
+    - anh muốn mua đồ nữ
 
 - intent: quanNu
   examples: |
@@ -200,6 +272,10 @@ nlu:
     - shop mình có quần nữ không
     - có quần nữ không
     - mình muốn mua quần nữ
+    - tôi muốn mua quần nữ
+    - em muốn mua quần nữ
+    - chị muốn mua quần nữ
+    - anh muốn mua quần nữ
 
 - intent: aoNu
   examples: |
@@ -208,6 +284,10 @@ nlu:
     - shop mình có áo nữ không
     - có áo nữ không
     - mình muốn mua áo nữ
+    - tôi muốn mua áo nữ
+    - em muốn mua áo nữ
+    - chị muốn mua áo nữ
+    - anh muốn mua áo nữ
 
 - intent: giayNu
   examples: |
@@ -216,6 +296,10 @@ nlu:
     - shop mình có giày nữ không
     - có giày nữ không
     - mình muốn mua giày nữ
+    - tôi muốn mua giày nữ
+    - em muốn mua giày nữ
+    - chị muốn mua giày nữ
+    - anh muốn mua giày nữ
 
 - intent: vayNu
   examples: |
@@ -224,3 +308,7 @@ nlu:
     - shop mình có váy nữ không
     - có váy nữ không
     - mình muốn mua váy nữ
+    - tôi muốn mua váy nữ
+    - em muốn mua váy nữ
+    - chị muốn mua váy nữ
+    - anh muốn mua váy nữ

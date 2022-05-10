@@ -54,165 +54,234 @@ responses:
 
     #em be
     utter_hoiDoEmBe:
-    - text: "chúng mình có bán áo em bé, quần em bé, giày em bé"
-    - text: "bên mình có bán áo em bé, quần em bé, giày em bé"
-    - text: "shop mình có bán áo em bé, quần em bé, giày em bé"
+    - text: "chúng mình có bán:"
+      buttons:
+      - title: quần em bé
+      - title: áo em bé
+      - title: giày em bé
+    - text: "bên mình có bán:"
+      buttons:
+      - title: quần em bé
+      - title: áo em bé
+      - title: giày em bé
+    - text: "shop mình có bán:"
+      buttons:
+      - title: quần em bé
+      - title: áo em bé
+      - title: giày em bé
 
     utter_aoEmBe:
     - text: "deuce-shirt"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/deuce-shirt.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/baby/deuce-shirt.jpg"
     - text: "duck-shirt"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/duck-shirt.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/baby/duck-shirt.jpeg"
     - text: "baby-dark-lounghe-suit"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/baby-dark-lounghe-suit.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/baby/baby-dark-lounghe-suit.jpg"
 
     utter_quanEmBe:
     - text: "duck-trouser"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/duck-trouser.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/baby/duck-trouser.jpeg"
 
     utter_giayEmBe:
     - text: "aino-shoes"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/aino-shoes.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/baby/aino-shoes.jpg"
     - text: "saporoo-gloves"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/baby/saporoo-gloves.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/baby/saporoo-gloves.jpg"
 
     #tre em
     utter_hoiDoTreEm:
     - text: "chúng mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
     - text: "bên mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
     - text: "shop mình có bán áo trẻ em, quần trẻ em, giày trẻ em"
+    - text: "chúng mình có bán:"
+      buttons:
+      - title: quần trẻ em
+      - title: áo trẻ em
+      - title: giày trẻ em
+    - text: "bên mình có bán:"
+      buttons:
+      - title: quần trẻ em
+      - title: áo trẻ em
+      - title: giày trẻ em
+    - text: "shop mình có bán:"
+      buttons:
+      - title: quần trẻ em
+      - title: áo trẻ em
+      - title: giày trẻ em
 
     utter_aoTreEm:
     - text: "rdl-suit"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/rdl-suit.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/children/rdl-suit.jpg"
 
     utter_quanTreEm:
     - text: "rdl-suit"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/rdl-suit.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/children/rdl-suit.jpg"
 
     utter_giayTreEm:
     - text: "kool-sunglasses"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/kool-sunglasses.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/children/kool-sunglasses.jpg"
     - text: "runner-shoes"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/children/runner-shoes.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/children/runner-shoes.jpeg"
 
     #do boi
     utter_hoiDoBoi:
-    - text: "chúng mình có bán áo quần bơi, đồ bơi nam và đồ bơi nữ"
-    - text: "shop mình có bán áo quần bơi, đồ bơi nam và đồ bơi nữ"
-    - text: "bên mình có bán áo quần bơi, đồ bơi nam và đồ bơi nữ"
+    - text: "chúng mình có bán:"
+      buttons:
+      - title: quần bơi
+      - title: đồ bơi nam
+      - title: đồ bơi nữ
+    - text: "bên mình có bán:"
+      buttons:
+      - title: quần bơi
+      - title: đồ bơi nam
+      - title: đồ bơi nữ
+    - text: "shop mình có bán:"
+      buttons:
+      - title: quần bơi
+      - title: đồ bơi nam
+      - title: đồ bơi nữ
 
     utter_quanBoi:
     - text: "la-shorts"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/la-shorts.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/la-shorts.jpg"
     - text: "summer-shorts"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/summer-shorts.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/summer-shorts.jpeg"
 
     utter_doBoiNam:
     - text: "la-shorts"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/la-shorts.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/la-shorts.jpg"
     - text: "summer-shorts"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/summer-shorts.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/summer-shorts.jpeg"
 
     utter_doBoiNu:
     - text: "baywatch-swimsuit"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/baywatch-swimsuit.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/baywatch-swimsuit.jpg"
     - text: "innish-swimsuit"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/innish-swimsuit.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/innish-swimsuit.jpg"
     - text: "rivieva-swimsuit"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/rivieva-swimsuit.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/rivieva-swimsuit.jpeg"
     - text: "tank-swimsuit"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/swimwear/tank-swimsuit.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/swimwear/tank-swimsuit.jpg"
 
     #do nam
     utter_hoiDoNam:
-    - text: "chúng mình có bán quần nam, áo nam, giày nam, vest nam"
-    - text: "bên mình có bán quần nam, áo nam, giày nam, vest nam"
-    - text: "shop mình có bán quần nam, áo nam, giày nam, vest nam"
+    - text: "chúng mình có bán:"
+      buttons:
+      - title: quần nam
+      - title: áo nam
+      - title: giày nam
+      - title: vest nam
+    - text: "bên mình có bán:"
+      buttons:
+      - title: quần nam
+      - title: áo nam
+      - title: giày nam
+      - title: vest nam
+    - text: "shop mình có bán:"
+      buttons:
+      - title: quần nam
+      - title: áo nam
+      - title: giày nam
+      - title: vest nam
 
     utter_quanNam:
     - text: "desperado-jeans"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/desperado-jeans.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/desperado-jeans.jpg"
     - text: "lenin-jeanshorts"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/lenin-jeanshorts.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/lenin-jeanshorts.jpg"
     - text: "rossi-bermuda-short"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/rossi-bermuda-short.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/rossi-bermuda-short.jpg"
     - text: "us-master-jeans"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/us-master-jeans.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/us-master-jeans.jpg"
 
     utter_aoNam:
     - text: "atlas-lussekofta"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/atlas-lussekofta.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/atlas-lussekofta.jpeg"
     - text: "bow-tie"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/bow-tie.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/bow-tie.jpg"
 
     utter_giayNam:
     - text: "avenport-shoes"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/davenport-shoes.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/davenport-shoes.jpg"
     - text: "fuji-boots"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/fuji-boots.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/fuji-boots.jpg"
     - text: "lundenhagen-boots"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/lundenhagen-boots.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/lundenhagen-boots.jpeg"
     - text: "root-boots"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/root-boots.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/root-boots.jpg"
     - text: "summit-hiking-boots"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/summit-hiking-boots.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/summit-hiking-boots.jpg"
     - text: "samba-soccer-socks"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/samba-soccer-socks.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/samba-soccer-socks.jpeg"
     - text: "tiebrak-tenis-shoes"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/tiebrak-tenis-shoes.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/tiebrak-tenis-shoes.jpg"
 
     utter_vestNam:
     - text: "vest nam"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/men/vest.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/men/vest.jpg"
 
     #do nu
     utter_hoiDoNu:
-    - text: "chúng mình có bán quần nữ, áo nữ, giày nữ, vest nữ"
-    - text: "bên mình có bán quần nữ, áo nữ, giày nữ, vest nữ"
-    - text: "shop mình có bán quần nữ, áo nữ, giày nữ, vest nữ"
+    - text: "chúng mình có bán:"
+      buttons:
+      - title: quần nữ
+      - title: áo nữ
+      - title: giày nữ
+      - title: váy nữ
+    - text: "bên mình có bán:"
+      buttons:
+      - title: quần nữ
+      - title: áo nữ
+      - title: giày nữ
+      - title: váy nữ
+    - text: "shop mình có bán:"
+      buttons:
+      - title: quần nữ
+      - title: áo nữ
+      - title: giày nữ
+      - title: váy nữ
 
     utter_quanNu:
     - text: "stretch-pants"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/stretch-pants.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/stretch-pants.jpeg"
 
     utter_aoNu:
     - text: "channel-shirt"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/channel-shirt.png"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/channel-shirt.png"
     - text: "lacoste-shirt"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/lacoste-shirt.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/lacoste-shirt.jpg"
     - text: "serve-shirt"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/serve-shirt.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/serve-shirt.jpg"
     - text: "skin-jacket"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/skin-jacket.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/skin-jacket.jpeg"
     - text: "terence-top"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/terence-top.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/terence-top.jpg"
     - text: "tuixedo-top"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/tuixedo-top.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/tuixedo-top.jpg"
     - text: "wrap-skirt"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/wrap-skirt.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/wrap-skirt.jpeg"
 
     utter_giayNu:
     - text: "dsw-sandels"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/dsw-sandels.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/dsw-sandels.jpeg"
     - text: "lightweight-sandels"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/lightweight-sandels.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/lightweight-sandels.jpeg"
     - text: "slip-on-shoes"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/slip-on-shoes.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/slip-on-shoes.jpeg"
     - text: "walking-shoes"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/walking-shoes.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/walking-shoes.jpg"
     - text: "wfs-shoes"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/wfs-shoes.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/wfs-shoes.jpeg"
     - text: "winter-boots"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/winter-boots.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/winter-boots.jpg"
 
     utter_vayNu:
     - text: "kimono"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/kimono.jpeg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/kimono.jpeg"
     - text: "halter-dress"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/halter-dress.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/halter-dress.jpg"
     - text: "jaskflash-dress"
-      image: "https://github.com/AnhDinhJan26/abc-chatbot/tree/master/data/image/woman/jaskflash-dress.jpg"
+      image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/jaskflash-dress.jpg"
 
 session_config:
      session_expiration_time: 60
