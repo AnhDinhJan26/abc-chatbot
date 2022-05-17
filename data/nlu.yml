@@ -1,4 +1,54 @@
 nlu:
+- intent: che_sanpham_quan
+  examples: |
+    - sản phẩm bị xù lông quá shop ơi, bán hàng như vậy thì ai mà thèm mua nữa, tẩy chay shop này đi mọi người ơi
+    - sản phẩm bị bung chỉ tùm lum, đã tốn tiền mua sản phẩm lại phải tốn tiền đi may vá lại sản phẩm
+    - cái quần thì mỏng dính mà lấy phí tận 50.000đ, có treo đầu dê bán thịt chó quá không vậy shop
+    - chất quần co dãn không tốt, ống quần quá hẹp, giao sai size vì thế không thể kéo cái quần lên nổi luôn á
+    - chất lượng sản phẩm quá kém
+    - quần quá ngắn
+    - chất vải quần nhìn quá thô
+    - chưa mặc cái quần lần nào mà đã bị bung chỉ hết trơn
+    - ống quần quá dài, mua sản phẩm lại phải tốn thêm phí để lên lai quần
+
+- intent: che_sanpham_ao
+  examples: |
+    - chất áo rất mỏng, mặc vào cảm thấy như có thể nhìn xuyên thấu bên trong luôn vậy á
+    - đường chỉ may trên áo vẫn còn rất nhiều
+    - ống tay áo quá dài, rất bực bội và khó chịu mỗi khi bị dính nước
+    - túi áo phải bị bung chỉ khi nhận hàng
+    - màu áo không giống với màu đã quảng cáo trên shop, màu quá lòe loẹt
+    - size áo quá lớn so với thân hình của tôi
+
+- intent: che_sanpham_giay
+  examples: |
+    - giày quá chật, không xỏ vào được
+    - sản phẩm giày mà không có dây giày
+    - chất giày quá xấu
+    - mũi giày quá cao, mang vào trông rất xấu so với ý kiến riêng của mình
+    - mang giày độn rất xấu hổ, bị bạn bè cười chê
+    - đế giày quá xấu
+    - màu và kích cỡ giày không hài lòng khi mình đã đặt trên shop
+
+
+- intent: che_shop
+  examples: |
+    - sản phẩm thì không đóng gói kĩ càng, khi nhận hàng thì mở hộp ra thì bốc mùi hôi không thể diễn tả được luôn
+    - đặt sản phẩm này nhưng lại giao sản phẩm khác, shop rất không để tâm đến đơn hàng của khách hàng
+    - sản phẩm bị lỗi và rách rưới như vậy nhưng shop vẫn đem đóng gói và bán ra cho khách, riết rồi chán shop quá
+    - dịch vụ chăm sóc khách hàng không chuyên nghiệp
+    - đã đặt hàng và thanh toán cả quần và áo nhưng khi nhận hàng thì chỉ có cái áo, shop soạn thiếu hàng
+    - đã đặt 3 cái sản phẩm với 3 màu khác nhau nhưng không biết shop soạn hàng kiểu gì mà chỉ giao 3 cái nhưng cùng 1 màu
+    - khâu may vá bên shop quá ẩu, đường chỉ may của nhiều sản phẩm bị rất nhiều lỗi
+
+- intent: che_shipper
+  examples: |
+    - giao hàng quá chậm, khi nhận hàng thì đã bị khui hộp ra từ trước
+    - thái độ và cách ăn nói của shipper quá tệ
+    - shipper giao hàng mà toàn lựa thời gian nghỉ ngơi của người khác để giao nhưng với thái độ rất bất lịch sự
+    - shipper tự tiện vô nhà người khác giao hàng mà không có 1 cuộc gọi nào trước đó, tính cách quá tệ
+    - shipper ăn nói quá xấc xược, lại còn không thèm thối tiền thừa cho khách hàng
+
 - intent: chaoHoi
   examples: |
     - hi
@@ -24,20 +74,24 @@ nlu:
     - tạm biệt
     - chào tạm biệt
     - tạm biệt shop
+    - chúc shop mua may bán đắt nha, lần sau mình ghé lại mua tiếp
 
 - intent: camOn
   examples: |
     - cảm ơn shop
     - em cảm ơn ạ
     - cám ơn
-    - thank
+    - thanks
     - tuyệt
+    - hàng rất chất lượng và tôi rất thích cách thiết kế của shop
+
 
 - intent: tuVan
   examples: |
     - tư vấn cho mình với
     - tư vấn cho anh với
     - tư vấn cho chị với
+    - tư vấn cho em kích cỡ quần với shop ơi
     - shop bán gì vậy ạ
     - shop bán gì
     - bán gì
@@ -192,6 +246,7 @@ nlu:
     - em muốn mua đồ bơi nam
     - chị muốn mua đồ bơi nam
     - anh muốn mua đồ bơi nam
+    - shop ơi, bên mình có bán đồ bơi nam kích cỡ lớn không tại vì tạng người anh hơi mập
 
 #do nam
 - intent: hoiDoNam
@@ -314,3 +369,4 @@ nlu:
     - em muốn mua váy nữ
     - chị muốn mua váy nữ
     - anh muốn mua váy nữ
+    - vợ anh rất thích mặc váy nên bên shop có váy nào xinh xắn không

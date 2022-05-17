@@ -1,6 +1,11 @@
 version: "3.1"
 
 intents:
+     - che_sanpham_quan
+     - che_sanpham_ao
+     - che_sanpham_giay
+     - che_shop
+     - che_shipper
      - chaoHoi
      - tamBiet
      - camOn
@@ -30,6 +35,26 @@ intents:
 
 
 responses:
+    utter_che_sanpham_quan: 
+    - text: "Bạn phải chụp lại hình ảnh và gửi qua cho shop để shop có cái làm minh chứng thì mới giải quyết cho bạn được chứ"
+    - text: "Nếu đã không thích sản phẩm như thế thì có thể liên hệ để trả lại, có cần phải nói như vậy không hả bạn, chén cơm hằng ngày của người khác"
+    - text: "Nếu bạn không hài lòng với sản phẩm thì bạn có thể nhắn tin riêng cho shop để shop có thể đổi trả sản phẩm khác hoặc hoàn tiền lại cho bạn"
+    - text: "Bạn có thể nhắn tin riêng cho shop để shop giải quyết vấn đề cho bạn trước khi đăng bình luận lên chứ, bạn đăng lên trước như vậy là hạ uy tín của shop cũng như hạ thấp chất lượng sản phẩm thì làm sao"
+
+    utter_che_sanpham_ao:
+    - text: "Bạn có hình ảnh chụp lại không, có thể đưa cho shop để xem xét và đổi trả hàng khác cho bạn"
+    - text: "Màu sắc bên mình hài hòa và tương đối như thế mà bạn kêu là lòe loẹt là sao bạn, bạn có gu thẩm mĩ hay không vậy"
+
+    utter_che_sanpham_giay:
+    - text: "Bạn đã đặt sản phẩm giày như thế nào thì bên shop giao như vậy thôi, có cần phải nói như vậy không vậy bạn"
+
+    utter_che_shop:
+    - text: "bên mình làm rất kĩ càng nhưng không hiểu sao lại như vậy, cho shop mình xin lỗi và sẽ giải quyết vấn đề cho bạn"
+
+    utter_che_shipper:
+    - text: "Nếu nhân viên vận chuyển bên shop mình có làm gì sai thì mong bạn bỏ qua, bên shop mình sẽ giải quyết vấn đề không hài lòng của khách hàng một cách tận tình ạ"
+    - text: "Mình sẽ xem xét lại sự việc và sẽ thay đổi nhân viên vận chuyển, mong bạn tiếp tục ủng hộ shop để shop có động lực phục vụ bạn tốt hơn"
+
     utter_chaoHoi:
     - text: "Chào bạn, mình có thể giúp gì được cho bạn không?"
     - text: "Chào bạn!"
@@ -330,6 +355,7 @@ responses:
       image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/halter-dress.jpg"
     - text: "jaskflash-dress"
       image: "https://raw.githubusercontent.com/AnhDinhJan26/abc-chatbot/master/data/image/woman/jaskflash-dress.jpg"
+
 
 session_config:
      session_expiration_time: 60

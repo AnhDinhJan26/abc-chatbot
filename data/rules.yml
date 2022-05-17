@@ -1,39 +1,71 @@
 version: "3.1"
 
 rules:
+- rule: che san pham quan
+  steps:
+  - intent: che_sanpham_quan
+  - action: utter_che_sanpham_quan
+
+- rule: che san pham ao
+  steps:
+  - intent: che_sanpham_ao
+  - action: utter_che_sanpham_ao
+
+- rule: che san pham giay
+  steps:
+  - intent: che_sanpham_giay
+  - action: utter_che_sanpham_giay
+
+- rule: che shop
+  steps:
+  - intent: che_shop
+  - action: utter_che_shop
+
+- rule: che shipper
+  steps:
+  - intent: che_shipper
+  - action: utter_che_shipper
+
 - rule: xin chao
   steps:
   - intent: chaoHoi
   - action: utter_chaoHoi
+
 - rule: tam biet
   steps:
   - intent: tamBiet
   - action: utter_tamBiet
+
 # - camOn
 - rule: cam on
   steps:
   - intent: camOn
   - action: utter_camOn
+
 # - tuVan
 - rule: tu van
   steps:
   - intent: tuVan
   - action: utter_tuVan
+
 # - hoiDoEmBe
 - rule: hoi do em be
   steps:
   - intent: hoiDoEmBe
   - action: utter_hoiDoEmBe
+
 # - quanEmBe
 - rule: quan em be
   steps:
   - intent: quanEmBe
   - action: utter_quanEmBe
+
 # - aoEmBe
 - rule: ao em be
   steps:
   - intent: aoEmBe
   - action: utter_aoEmBe
+
 # - giayEmBe
 - rule: giay em be
   steps:
