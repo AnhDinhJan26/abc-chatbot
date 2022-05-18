@@ -1,6 +1,33 @@
 version: "3.1"
 
 rules:
+#khen
+- rule: khen san pham quan
+  steps:
+  - intent: khen_sanpham_quan
+  - action: utter_khen_sanpham_quan
+
+- rule: khen san pham ao
+  steps:
+  - intent: khen_sanpham_ao
+  - action: utter_khen_sanpham_ao
+
+- rule: khen san pham giay
+  steps:
+  - intent: khen_sanpham_giay
+  - action: utter_khen_sanpham_giay
+
+- rule: khen shop
+  steps:
+  - intent: khen_shop
+  - action: utter_khen_shop
+
+- rule: khen shipper
+  steps:
+  - intent: khen_shipper
+  - action: utter_khen_shipper
+
+#che
 - rule: che san pham quan
   steps:
   - intent: che_sanpham_quan

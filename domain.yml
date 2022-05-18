@@ -6,6 +6,11 @@ intents:
      - che_sanpham_giay
      - che_shop
      - che_shipper
+     - khen_sanpham_quan
+     - khen_sanpham_ao
+     - khen_sanpham_giay
+     - khen_shop
+     - khen_shipper
      - chaoHoi
      - tamBiet
      - camOn
@@ -35,6 +40,24 @@ intents:
 
 
 responses:
+
+    utter_khen_sanpham_quan: 
+    - text: "cảm ơn bạn đã tin dùng sản phẩm của shop ^^"
+
+    utter_khen_sanpham_ao:
+    - text: "cảm ơn bạn đã tin dùng sản phẩm của shop ^^"
+
+    utter_khen_sanpham_giay:
+    - text: "cảm ơn bạn đã tin dùng sản phẩm của shop ^^"
+
+    utter_khen_shop:
+    - text: "cảm ơn bạn đã tin tưởng và ủng hộ shop"
+
+    utter_khen_shipper:
+    - text: "cảm ơn bạn đã khen, mình sẽ tiếp tục sử dụng dịch vụ giao hàng này để phục vụ bạn"
+    - text: "Mình sẽ xem xét lại sự việc và sẽ thay đổi nhân viên vận chuyển, mong bạn tiếp tục ủng hộ shop để shop có động lực phục vụ bạn tốt hơn"
+
+
     utter_che_sanpham_quan: 
     - text: "Bạn phải chụp lại hình ảnh và gửi qua cho shop để shop có cái làm minh chứng thì mới giải quyết cho bạn được chứ"
     - text: "Nếu đã không thích sản phẩm như thế thì có thể liên hệ để trả lại, có cần phải nói như vậy không hả bạn, chén cơm hằng ngày của người khác"
@@ -79,7 +102,7 @@ responses:
 
     #em be
     utter_hoiDoEmBe:
-    - text: "chúng mình có bán:"
+    - text: "chúng mình có bán: quần em bé, áo em bé, quần em bé"
       buttons:
       - payload: /quanEmBe
         title: quần em bé
@@ -87,7 +110,7 @@ responses:
         title: áo em bé
       - payload: /giayEmbe
         title: giày em bé
-    - text: "bên mình có bán:"
+    - text: "shop mình có bán: quần em bé, áo em bé, quần em bé"
       buttons:
       - payload: /quanEmBe
         title: quần em bé
@@ -95,7 +118,7 @@ responses:
         title: áo em bé
       - payload: /giayEmbe
         title: giày em bé
-    - text: "shop mình có bán:"
+    - text: "bên mình có bán: quần em bé, áo em bé, quần em bé"
       buttons:
       - payload: /quanEmBe
         title: quần em bé
@@ -124,7 +147,7 @@ responses:
 
     #tre em
     utter_hoiDoTreEm:
-    - text: "chúng mình có bán:"
+    - text: "chúng mình có bán: quần trẻ em, áo trẻ em, giày trẻ em"
       buttons:
       - payload: /quanTreEm
         title: quần trẻ em
@@ -132,7 +155,7 @@ responses:
         title: áo trẻ em
       - payload: /giayTreEm
         title: giày trẻ em
-    - text: "bên mình có bán:"
+    - text: "bên mình có bán: quần trẻ em, áo trẻ em, giày trẻ em"
       buttons:
       - payload: /quanTreEm
         title: quần trẻ em
@@ -140,7 +163,7 @@ responses:
         title: áo trẻ em
       - payload: /giayTreEm
         title: giày trẻ em
-    - text: "shop mình có bán:"
+    - text: "shop mình có bán: quần trẻ em, áo trẻ em, giày trẻ em"
       buttons:
       - payload: /quanTreEm
         title: quần trẻ em
@@ -165,7 +188,7 @@ responses:
 
     #do boi
     utter_hoiDoBoi:
-    - text: "chúng mình có bán:"
+    - text: "chúng mình có bán: quần bơi, đồ bơi nam, đồ bơi nữ"
       buttons:
       - payload: /quanBoi
         title: quần bơi
@@ -173,7 +196,7 @@ responses:
         title: đồ bơi nam
       - payload: /doBoiNu
         title: đồ bơi nữ
-    - text: "bên mình có bán:"
+    - text: "shop mình có bán: quần bơi, đồ bơi nam, đồ bơi nữ"
       buttons:
       - payload: /quanBoi
         title: quần bơi
@@ -181,7 +204,7 @@ responses:
         title: đồ bơi nam
       - payload: /doBoiNu
         title: đồ bơi nữ
-    - text: "shop mình có bán:"
+    - text: "bên mình có bán: quần bơi, đồ bơi nam, đồ bơi nữ"
       buttons:
       - payload: /quanBoi
         title: quần bơi
@@ -214,7 +237,7 @@ responses:
 
     #do nam
     utter_hoiDoNam:
-    - text: "chúng mình có bán:"
+    - text: "chúng mình có bán: quần nam, áo nam, giày nam, vest nam"
       buttons:
       - payload: /quanNam
         title: quần nam
@@ -224,7 +247,7 @@ responses:
         title: giày nam
       - payload: /vestNam
         title: vest nam
-    - text: "bên mình có bán:"
+    - text: "bên mình có bán: quần nam, áo nam, giày nam, vest nam"
       buttons:
       - payload: /quanNam
         title: quần nam
@@ -234,7 +257,7 @@ responses:
         title: giày nam
       - payload: /vestNam
         title: vest nam
-    - text: "shop mình có bán:"
+    - text: "shop mình có bán: quần nam, áo nam, giày nam, vest nam"
       buttons:
       - payload: /quanNam
         title: quần nam
@@ -283,7 +306,7 @@ responses:
 
     #do nu
     utter_hoiDoNu:
-    - text: "chúng mình có bán:"
+    - text: "chúng mình có bán: quần nữ, áo nữ, giày nữ, váy nữ"
       buttons:
       - payload: /quanNu
         title: quần nữ
@@ -293,7 +316,7 @@ responses:
         title: giày nữ
       - payload: /vayNu
         title: váy nữ
-    - text: "bên mình có bán:"
+    - text: "bên mình có bán: quần nữ, áo nữ, giày nữ, váy nữ"
       buttons:
       - payload: /quanNu
         title: quần nữ
@@ -303,7 +326,7 @@ responses:
         title: giày nữ
       - payload: /vayNu
         title: váy nữ
-    - text: "shop mình có bán:"
+    - text: "shop mình có bán: quần nữ, áo nữ, giày nữ, váy nữ"
       buttons:
       - payload: /quanNu
         title: quần nữ
